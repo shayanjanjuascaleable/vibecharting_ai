@@ -69,4 +69,4 @@ jobs:
         with:
           app-name: 'vibechartingai'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FCE29EA714DA401FBE27D388ECCFFA4C }} 
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FCE29EA714DA401FBE27D388ECCFFA4C }}

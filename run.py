@@ -10,8 +10,7 @@ backend_dir = Path(__file__).parent / "backend"
 sys.path.insert(0, str(backend_dir.parent))
 
 # Import and run the Flask app
-from backend.app import app
-
+from backend import app
 if __name__ == '__main__':
     app.run(debug=True)
 
